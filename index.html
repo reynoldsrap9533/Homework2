@@ -2,40 +2,49 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width">
         <title>Our First Webpage</title>
         <link rel="shortcut icon" href="images/favicon.png">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.css">      
+        <link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet">
+
         
 </head>
+
+<!--BODY-->
   <body>
-    <!---<p>I Should not be displayed</p>--->
-    <header><h1>Mike's World</h1> </header>
+    <header class="fixed-bar"><h1 class="page-title">Mike's World</h1> </header>
+    <!--NAV-->
     <nav>
-      <ul>
+      <ul class="navigation">
           <li>Home</li>
           <li>
           <a href="contact/index.html">Contact</a></li>
       </ul>
     </nav>
+    <!--Main-->
     <main>
-        <ul>
-          <li> <p>My SF City Trip</p><div>
-            <img src="images/sf.png" alt="Image of the San Francisco streets"></div></li>
-          <li><p>The California Landscape</p><div>
-            <img src="images/california.png" alt="Image of California streets">
-          </div>
-           </li>
-        </ul>
-      <p>Do People Like My Page</p>
+         <div class="trip-text">
+              <p>My SF City Trip</p>
+              <p>The California Landscape</p>
+        </div>
+        <div class="trip-images">
+          <img src="images/sf.png" alt="Image of the San Francisco streets">
+          <img src="images/california.png" alt="Image of California streets">
+        </div>
+      <p class="feedback">Do People Like My Page</p>
     </main>
+
+
+    <!--FOOTER-->
     <footer>
-      <div>
+      <div class="review-clients">
         <img src="images/image-max.png" alt="Image of Max">
-        <span>Max - Awesome Page, great work, keep it up!</span>
+        <p>Max - Awesome Page, great work, keep it up!</p>
       </div>
-      <div>
+      <div class="review-clients">
         <img src="images/image-manu.png" alt="Image of Manu">
-        <span>Manu - Looks really nice, beatuiful pictures!</span>
+        <p>Manu - Looks really nice, beatuiful pictures!</p>
       </div>
     </footer>
       
